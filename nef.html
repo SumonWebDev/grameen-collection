@@ -7,76 +7,45 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <style>
-   .A{
-       height: 400px;
-       border:1px dotted;
-       width: 100%;
-   }
-   .A img{
-       width: 100%;
-       height:200px;
-   }
-   .B{
-       display: grid;
-       row-gap: 1px;
-       column-gap: 2px;
-       
-   }
-   .container{
-       margin-top: 100px;
-   }
-   .row img{
-      width:200px; 
-      height:200px;
-      border: 1px dotted;
-   }
-   .C,.D{
-       column-gap: 2px;
-       row-gap: 2px;
-   }
-  </style>
-  <body>
-<div class="container">
-    <div class="row">
-        <div class="A col-4">
-            <img src="g1.jpg" alt="">
-        </div>
-        <div class="B col-8">
-            <div class="C">
-                <div class="row">
-                    <div class="col-3">
-                        <img src="g2.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img src="g3.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img src="g4.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img src="g5 (1).jpg" alt="">
-                    </div>
-                </div>
-            </div>
-           <div class="D"> 
-            <div class="row">
-                <div class="col-3">
-                    <img src="g2.jpg" alt="">
-                </div>
-                <div class="col-3">
-                    <img src="g3.jpg" alt="">
-                </div>
-                <div class="col-3">
-                    <img src="g4.jpg" alt="">
-                </div>
-                <div class="col-3">
-                    <img src="g5 (1).jpg" alt="">
-                </div>
-            </div>
-           </div>
-        </div>
-      </div>
+    .row img{
+        width:100%;
+        height: 440px;
+    }
+    .First{
+        margin-top:100px;
+        display: grid;
+        margin-bottom: 100px;
+    }
+    .A{
+        display: grid;
+grid-template-rows: 1fr 1fr;
+row-gap:2px;
+    }
+    .A img{
+        width: 100%;
+        height:220px;
+    }
+   </style>
+   <body>
+<section class="First container">
+<div class="row">
+    <div class="col-3">
+        <img src="g14.jpg" alt="">
     </div>
+    <div class="A col-6">
+        <div class="item">
+            <img src="p1.png" alt="">
+        </div>
+        <div class="item">
+            <img src="p2.jpg" alt="">
+        </div>
+    </div>
+    <div class="col-3">
+        <img src="g15.jpg" alt="">
+    </div>
+</div>
+</section>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
