@@ -19,7 +19,7 @@ text-align: center;
 padding:50px 0%;
 
     }
-    .background img{
+    .M img{
         height:300px;
         width: 100%;
     }
@@ -104,4 +104,19 @@ row-gap:2px;
     }
     .N{
         padding:10px;
+    }
+    .M{
+        margin-bottom:50px;
+        margin-top: 100px;
+    }
+    h1{
+        color: orange;
+    }
+    h2,h3{
+        text-align: center;
+        margin-top: 50px;
+        color: orangered;
+    }
+    .W{
+        margin-top: 120px;
     }
